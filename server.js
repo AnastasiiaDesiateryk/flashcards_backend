@@ -108,7 +108,7 @@ app.post("/auth/register", async (req, res) => {
   }
 });
 
-// ======= LOGIN ======= ???auth???
+// ======= LOGIN =======
 app.post("/auth/login", async (req, res) => {
   const { email, password } = req.body;
 
